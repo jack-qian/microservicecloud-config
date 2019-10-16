@@ -24,5 +24,10 @@ server:
 spring:
     profiles: test  #开发环境
     application:
-        name: microservice-config-client      
+        name: microservice-config-client
+---
+eureka:
+    client:
+        server-url:
+            defaultZone: http://eureka-test.com:7001/eureka/        
  #请保存为UTF-8的格式
