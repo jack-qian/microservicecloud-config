@@ -5,6 +5,7 @@ spring:
 ---
 server:
     port: 8201
+    
 spring:
     profiles: dev  #开发环境
     application:
@@ -16,7 +17,12 @@ eureka:
         server-url:
             defaultZone: http://eureka-dev.com:7001/eureka/
 
-
 ---
-        
+server:
+    port: 8202
+    
+spring:
+    profiles: test  #开发环境
+    application:
+        name: microservice-config-client      
  #请保存为UTF-8的格式
