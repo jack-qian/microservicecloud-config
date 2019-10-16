@@ -1,17 +1,18 @@
 spring:
-    prorperfiles:
+    profiles:
         active:
             - dev
 ---
 
 spring:
-    prorperfiles: dev  #开发环境
+    profiles: dev  #开发环境
     application:
-        name:microservice-config-run-dev
+        name: microservice-config-run-dev
         
 ---
 spring:
+     profiles: test 
      application:
-        name:microservice-config-run-test
+        name: microservice-config-run-test
         
  #请保存为UTF-8的格式
