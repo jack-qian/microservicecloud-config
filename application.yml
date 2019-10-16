@@ -1,0 +1,17 @@
+spring:
+    prorperfiles:
+        active:
+            - dev
+---
+
+spring:
+    prorperfiles: dev  #开发环境
+    application:
+        name:microservice-config-run-dev
+        
+---
+spring:
+     application:
+        name:microservice-config-run-test
+        
+ #请保存为UTF-8的格式
