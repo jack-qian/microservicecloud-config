@@ -15,7 +15,7 @@ eureka:
     instance:
         hostname: eureka7001.com
     client:
-        register-withEureka: false # 表示不把自己当前的服务注册到服务列表中  简称 自己不注册自己
+        register-with-eureka: false # 表示不把自己当前的服务注册到服务列表中  简称 自己不注册自己
         fetch-registry: false #不通过eureka获取信息
         serviceUrl:
             defaultZone: http://eureka7001.com:7001/eureka/
