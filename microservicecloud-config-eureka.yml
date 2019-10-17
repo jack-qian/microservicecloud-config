@@ -5,6 +5,7 @@ spring:
 ---
 server:
     port: 7001
+    
 spring:
     profiles: dev  #开发环境
     application:
@@ -18,9 +19,13 @@ eureka:
         fetch-registry: false #不通过eureka获取信息
         service-url:
             defaultZone: http://eureka7001.com:7001/eureka/
+security:
+  basic:
+    enabled: false            
 ---
 server:
     port: 7001
+    
 spring:
     profiles: test  #开发环境
     application:
@@ -34,5 +39,8 @@ eureka:
         fetch-registry: false #不通过eureka获取信息
         service-url:
             defaultZone: http://eureka7001.com:7001/eureka/
+security:
+  basic:
+    enabled: false            
         
  #请保存为UTF-8的格式
