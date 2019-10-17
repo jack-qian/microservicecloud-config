@@ -19,9 +19,9 @@ eureka:
         fetch-registry: false #不通过eureka获取信息
         serviceUrl:
             defaultZone: http://eureka7001.com:7001/eureka/
-security:
-  basic:
-    enabled: false            
+#security:
+  #basic:
+    #enabled: false            
 ---
 server:
     port: 7001
@@ -39,8 +39,8 @@ eureka:
         fetch-registry: false #不通过eureka获取信息
         serviceUrl:
             defaultZone: http://eureka7001.com:7001/eureka/
-security:
-  basic:
-    enabled: false            
+#security:
+  #basic:
+    #enabled: false            
         
  #请保存为UTF-8的格式

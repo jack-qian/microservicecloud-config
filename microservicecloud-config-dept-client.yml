@@ -12,7 +12,6 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: org.gjt.mm.mysql.Driver
-        #url: jdbc:mysql://192.168.3.47:3306/cloudDB02  #公司
         url: jdbc:mysql://192.168.1.96:3306/cloudDB02   #宿舍
         username: root
         password: 123456
@@ -52,7 +51,6 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: org.gjt.mm.mysql.Driver
-        #url: jdbc:mysql://192.168.3.47:3306/cloudDB02  #公司
         url: jdbc:mysql://192.168.1.96:3306/cloudDB02   #宿舍
         username: root
         password: 123456
