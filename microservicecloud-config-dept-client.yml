@@ -36,7 +36,7 @@ eureka:
       
 info:
   app.name: run-microservicecloud
-  company.name: 南通精益电子有限公司
+  company.name: www.baidu.com 
   build.artifactId: $project.artifactId$
   build.version: $project.version$
 ---
@@ -73,7 +73,7 @@ eureka:
       
 info:
   app.name: run-microservicecloud
-  company.name: 南通精益电子有限公司
+  company.name: www.baidu.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
         
